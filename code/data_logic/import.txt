@@ -1,0 +1,5 @@
+create the localschool_db database in your database client (phpmyadmin or mysql)
+place the "localschool_db.sql" file in the following directory: "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+call the command below under the following path in CMD Administrator: "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+mysql -u <root> -p localschool_db < localschool_db.sql
